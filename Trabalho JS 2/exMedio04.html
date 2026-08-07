@@ -1,0 +1,16 @@
+<script>
+    function contarVogais(palavra) {
+    const vogais = "aeiou";
+    let cont = 0;
+    
+    for (let letra of palavra.toLowerCase()) {
+        if (vogais.includes(letra)) {
+            cont++;
+        }
+    }
+    
+    return cont;
+}
+
+console.log(contarVogais("JavaScript"));
+</script>

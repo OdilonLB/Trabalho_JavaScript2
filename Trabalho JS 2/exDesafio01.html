@@ -1,0 +1,22 @@
+<script>
+function soma(a, b) {
+    return a + b;
+}
+
+function subtracao(a, b) {
+    return a - b;
+}
+
+function multiplicacao(a, b) {
+    return a * b;
+}
+
+function executarOperacao(a, b, operacao) {
+    return operacao(a, b);
+}
+
+
+console.log(executarOperacao(12, 22, soma));          
+console.log(executarOperacao(12, 22, subtracao));     
+console.log(executarOperacao(12, 22, multiplicacao));
+</script>

@@ -1,0 +1,17 @@
+<script>
+let total = 100;
+
+function adicionar(valor) {
+    let total = 10;
+    
+    total += valor;
+    
+    console.log("Dentro da função (local):", total);
+}
+
+console.log("Antes da função (global):", total); 
+
+adicionar(5);
+
+console.log("Depois da função (global):", total);
+</script>

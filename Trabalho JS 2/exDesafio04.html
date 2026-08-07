@@ -1,0 +1,15 @@
+<script>
+    function criarContador() {
+    let contador = 0;
+    
+    return function() {
+        return ++contador;
+    };
+}
+
+const meuContador = criarContador();
+
+console.log(meuContador()); 
+console.log(meuContador()); 
+console.log(meuContador()); 
+</script>
